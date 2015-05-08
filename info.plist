@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>ohfpnevav@tznvy.pbz</string>
+	<key>contactName</key>
+	<string>Jose Manuel Sánchez Peñarroja</string>
+	<key>description</key>
+	<string>General TextMate Commands.</string>
+	<key>name</key>
+	<string>JMSTextMate</string>
+	<key>uuid</key>
+	<string>9E8DD27F-47F3-4CE1-84D7-78032B759E17</string>
+</dict>
+</plist>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/python
+import sys
+import string
+commandLine = raw_input("")
+startNum = eval(commandLine.split()[0])
+endNum = eval(commandLine.split()[1])
+firstSpace = string.find(commandLine, " ")
+i = startNum
+inc = 1
+if (endNum&lt;startNum):
+  inc = -1
+
+while startNum!=endNum:
+  sys.stdout.write(str(startNum)+"\n")
+  startNum = startNum+inc
+
+sys.stdout.write(str(startNum))
+
+</string>
+	<key>input</key>
+	<string>line</string>
+	<key>inputFormat</key>
+	<string>text</string>
+	<key>name</key>
+	<string>Number Sequence</string>
+	<key>outputCaret</key>
+	<string>afterOutput</string>
+	<key>outputFormat</key>
+	<string>text</string>
+	<key>outputLocation</key>
+	<string>replaceInput</string>
+	<key>uuid</key>
+	<string>C9EF2090-8A23-4F35-91F3-F3821FA8F247</string>
+	<key>version</key>
+	<integer>2</integer>
+</dict>
+</plist>
