@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>commands</key>
+	<array>
+		<dict>
+			<key>argument</key>
+			<dict>
+				<key>action</key>
+				<string>replaceAll</string>
+				<key>findString</key>
+				<string>(\s+)=</string>
+				<key>regularExpression</key>
+				<true/>
+				<key>replaceString</key>
+				<string> =</string>
+				<key>wrapAround</key>
+				<true/>
+			</dict>
+			<key>command</key>
+			<string>findWithOptions:</string>
+		</dict>
+	</array>
+	<key>name</key>
+	<string>Xcode Log -&gt; JSON</string>
+	<key>uuid</key>
+	<string>433B56A8-D775-4F62-A390-369176E065B3</string>
+</dict>
+</plist>
