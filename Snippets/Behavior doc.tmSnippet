@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>## $1
+
+$2
+
+### Properties
+
+- **views** : The views affected by this behavior.
+- **value** : The value to set…
+
+### Actions
+
+- **change** or **run** (they are equivalent)
+
+### Next Actions
+
+It will trigger connected actions after changing the value.</string>
+	<key>name</key>
+	<string>Behavior doc</string>
+	<key>scope</key>
+	<string>text.html.markdown</string>
+	<key>tabTrigger</key>
+	<string>bdoc</string>
+	<key>uuid</key>
+	<string>F4E31A3D-DEF4-445C-AE0D-F9F09CEAEDA5</string>
+</dict>
+</plist>

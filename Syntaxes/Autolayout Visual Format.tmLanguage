@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>src</string>
+	</array>
+	<key>name</key>
+	<string>Autolayout Visual Format</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>(UIView:|Names:)</string>
+			<key>name</key>
+			<string>entity.name</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>((|)|-|\|\[|\])</string>
+			<key>name</key>
+			<string>keyword.operator</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>constant.numeric</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>\(([0-9]+)\)</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>variable</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>.+?:([^ \.:\(\[\)\]\&gt;]+)</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.autolayout.visualformat</string>
+	<key>uuid</key>
+	<string>4A3C7422-BDE7-4B15-AF20-A81787BD2F35</string>
+</dict>
+</plist>
